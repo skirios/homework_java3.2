@@ -1,11 +1,12 @@
-public class BonusMoney2 {
+public class BonusMoney2{
     public static void main(String[] args) {
-        int Balance = 10000;
-        int ReplenishmentAmount = 150000;
-        int BalanceAfter = Balance + ReplenishmentAmount;
-        if (ReplenishmentAmount >= 100000) {
-            BalanceAfter = (Balance + ReplenishmentAmount + ReplenishmentAmount / 100) / 100;
+        int balance = 10000;
+        int replenishmentAmount = 150000;
+        int balanceAfter = balance + replenishmentAmount;
+        if (replenishmentAmount >= 100000) {
+            balanceAfter = (balance + replenishmentAmount + replenishmentAmount / 100) / 100;
         }
-        System.out.println("Баланс счета: " + BalanceAfter);
+        System.out.println("Баланс счета: " + balanceAfter);
     }
 }
+

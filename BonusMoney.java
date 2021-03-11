@@ -1,15 +1,15 @@
 public class BonusMoney {
     public static void main(String[] args) {
-        int Balance = 10000;
-        int ReplenishmentAmount = 110000;
-        int BalanceAfter;
-        if (ReplenishmentAmount >= 100000) {
-            BalanceAfter = (Balance + ReplenishmentAmount + ReplenishmentAmount / 100) / 100;
+        int balance = 10000;
+        int replenishmentAmount = 110000;
+        int balanceAfter;
+        if (replenishmentAmount >= 100000) {
+            balanceAfter = (balance + replenishmentAmount + replenishmentAmount / 100) / 100;
         }
         else {
-             BalanceAfter = Balance + ReplenishmentAmount;
+             balanceAfter = balance + replenishmentAmount;
         }
-        System.out.println("Баланс счета: " + BalanceAfter);
+        System.out.println("Баланс счета: " + balanceAfter);
     }
 }
 
